@@ -49,7 +49,5 @@ var columns = [{
 $.fn.makeTbl = function() {
   make_table.call(this, data, columns)
   return this;
-
 }
 
-$('#table').makeTbl();
